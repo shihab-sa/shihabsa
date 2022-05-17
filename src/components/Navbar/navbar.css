@@ -1,0 +1,12 @@
+nav{
+    background:var(--body-color);
+    line-height: 5rem;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__menu__list{
+    display: flex;
+    gap: 20px;
+}
