@@ -4,7 +4,7 @@ grid{
     gap: 1.5rem;
 }
 
-/*============================ profile  */
+/*============================ profile============================================  */
 
 .profile{
     position: relative;
@@ -27,9 +27,9 @@ grid{
    justify-content: center;
    align-items: center;
  }
-.yes{
-  direction:ltr;
-}
+/* .yes{
+  direction: rtl;
+} */
 
 .profile__perfil{
   width: 100px;
@@ -75,13 +75,12 @@ grid{
 }
 
 
-/* ============================================ profile socail link  */
+/* ============================================ profile socail link =========================== */
 
 .profile__social{
   display: flex;
   justify-content: center;
- 
-  column-gap: .75rem;
+  column-gap:.75rem;
 }
 
 .profile__socail__link{
@@ -123,7 +122,7 @@ grid{
   font-weight: 500;
 }
 
-/* =========================================================== profile button  */
+/* =========================================================== profile button======================  */
 .button{
   display: inline-flex;
   align-items: center;
@@ -171,7 +170,7 @@ grid{
 }
 
 
-/* =============================================================== end of profile button  */
+/* =============================================================== end of profile button============  */
 
 
 
@@ -181,6 +180,7 @@ grid{
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
+
 @media only screen and (max-width: 600px) {
 
    .nav__container{
