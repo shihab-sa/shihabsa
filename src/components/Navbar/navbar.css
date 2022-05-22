@@ -10,3 +10,22 @@ nav{
     display: flex;
     gap: 20px;
 }
+.nav__menu__list li a{
+    font-size: var(--h3-font-size);
+    font-weight: 700;
+}
+
+/* =========================================media query and responsive ============================  */
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 600px) {
+
+    .nav__container{
+      justify-content: space-around;
+    }
+   
+   
+ 
+ }
+ 
