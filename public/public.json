@@ -1,0 +1,60 @@
+
+[
+    {
+        "id":3,
+        "category":"Front-End",
+        "level":"Advanced",
+        
+        "allskill":[
+            {
+            "skill1": "HTML",
+           "skill2":"CSS",
+           "skill3":"SASS",
+           "skill4":"JavaScript",
+           "skill5":"React js",
+           "skill6":"Next Js"
+
+        }
+        
+            
+                 ]
+    },
+    {
+     "id":2,
+     "category":"Back-End",
+     "level":"Advanced",
+     "allskill":[
+        {
+            "skill1": "Node Js",
+           "skill2":"Express Js",
+           "skill3":"Web Api",
+           "skill4":"Fetch Api",
+           "skill5":"Data Fetching",
+           "skill6":"Server Side"
+
+        }
+        
+]
+     },
+
+ {
+     "id":1,
+     "category":"Tools",
+     "level":"Advanced",
+   
+     "allskill":[
+        {
+        "skill1": "Figma",
+       "skill2":"CSS",
+       "skill3":"SASS",
+       "skill4":"JavaScript",
+       "skill5":"React js",
+       "skill6":"Next Js"
+
+    }
+        
+    ]
+
+ }
+        
+ ]
