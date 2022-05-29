@@ -1,0 +1,188 @@
+/* root color variable  */
+:root {
+    --primary-light: #8abdff;
+    --primary: #6d5dfc;
+    --primary-dark: #5b0eeb;
+    
+    --white: #FFFFFF;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+
+    --shadowBtn: .3rem .3rem .6rem var(--greyLight-2), 
+    -.2rem -.2rem .5rem var(--white);
+  }
+
+
+
+
+  /* conatiner sections  */
+
+
+  .container__myskill {
+    min-height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: var(--greyLight-1);
+    border-radius: 3rem;
+    margin-top: 7rem;
+  }
+
+  .components__my {
+    width: 75rem;
+    height: 40rem;
+    border-radius: 3rem;
+    box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
+              -.2rem -.2rem 1.8rem var(--white);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 17.6rem 19rem 20.4rem;
+    grid-template-rows: repeat(autofit, min-content);
+    grid-column-gap: 5rem;
+    grid-row-gap: 2.5rem;
+    align-items: center;
+   }
+
+
+   /* clock section  */
+
+   .clock {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    width: 12rem;
+    height: 12rem;
+    justify-self: center;
+    box-shadow: $shadow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+
+   .hand {
+    position: absolute;
+    transform-origin: bottom;
+    bottom: 6rem;
+    border-radius: .2rem;
+    z-index: 200;
+  }
+
+  .hours {
+    width: .4rem;
+    height: 3.2rem;
+    background: var(--greyLight-3);
+  }
+
+
+  .minutes {
+    width: .4rem;
+    height: 4.6rem;
+    background: var(--greyDark);
+  }
+  .seconds {
+    width: .2rem;
+    height: 5.2rem;
+    background: var(--primary);
+  }
+  .point {
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background: var(--primary);
+    z-index: 300;
+  }
+
+.marker {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    position: relative;
+    box-shadow:nset .2rem .2rem .5rem var(--greyLight-2);
+  }
+
+.marker::after {
+    content: '';
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    box-shadow: inset 1px 1px 1px var(--greyLight-2), 
+    inset -1px -1px 1px var(--white);
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+    filter: blur(1px);
+  }
+
+
+  .marker__1,.marker__2, .marker__3, .marker__4 {
+    position: absolute;
+    border-radius: .1rem;
+    box-shadow: inset 1px 1px 1px var(--greyLight-2), 
+    inset -1px -1px 1px var(--white);
+  }
+
+  .marker__1, .marker__2 {
+    width: .2rem;
+    height: .6rem;
+    left: 5.6rem;
+  }
+
+  .marker__3, .marker__4 {
+    width: .6rem;
+    height: .2rem;
+    top: 5.6rem;
+  }
+
+  .marker__1 { top: 2%; }
+  .marker__2 { top: 98%; transform: translateY(-.6rem);}
+  .marker__3 { left: 2%;}
+  .marker__4 { left: 98%; transform: translateX(-.6rem);}
+
+   /* clock section end  */
+
+
+   /* button  */
+
+.myskill__button{
+       display: flex;
+       flex-direction: column;
+       row-gap: 3rem;
+    
+    }
+
+   .btn{
+    padding:.87rem;
+    width: 8rem;
+    border-radius: .5rem;
+    cursor:pointer;
+    transition:.3s ease;
+    color:black;
+    font-weight: 500;
+   }
+
+   .btn__primary {
+    background: var(--first-color);
+    color: var(--greyLight-1);
+ }
+
+.btn__primary:hover { 
+       color: var(--greyLight-1);
+}
+
+
+   /* and active color  */
+
+   /* .btn__primary:active{
+       background-color: red;
+   } */
+
+   
+
+
+
+
