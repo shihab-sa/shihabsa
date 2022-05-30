@@ -1,0 +1,59 @@
+
+
+
+/* ==============================card container==================================  */
+.card__container{
+  margin-top: 6rem;
+  height: 320px;
+  width: 320px;
+  /* max-width: 450px; */
+  background: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0px 21px 37px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card__wrapper{
+    padding: 2.5rem;
+}
+
+/* ========================================== link sections ============================= */
+
+.link__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------- github -------------------  */
+.github,.project__link__live,.checked{
+    font-size: 1.5rem;
+    color:black;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+
+/* project image  */
+
+/* .image__projects{
+    border-radius: 1rem;
+} */
+
+.image__rounded{
+    border-radius: 1rem;
+}
+
+
+/* card footer  */
+
+.projects__footer{
+   display: flex;
+   margin-top: 2rem;
+    
+   
+}
+
+
+
+
