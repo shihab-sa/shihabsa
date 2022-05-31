@@ -11,7 +11,7 @@
            "skill2":"CSS",
            "skill3":"SASS",
            "skill4":"JavaScript",
-           "skill5":"React js",
+           "skill5":"React Js",
            "skill6":"Next Js"
 
         }
@@ -25,12 +25,8 @@
      "level":"Advanced",
      "allskill":[
         {
-            "skill1": "Node Js",
-           "skill2":"Express Js",
-           "skill3":"Web Api",
-           "skill4":"Fetch Api",
-           "skill5":"Data Fetching",
-           "skill6":"Server Side"
+            
+             
 
         }
         
@@ -45,11 +41,11 @@
      "allskill":[
         {
         "skill1": "Figma",
-       "skill2":"CSS",
-       "skill3":"SASS",
-       "skill4":"JavaScript",
-       "skill5":"React js",
-       "skill6":"Next Js"
+       "skill2":"Git",
+       "skill3":"GitHub",
+       "skill4":"CLI",
+       "skill5":"Webpack",
+       "skill6":"npm"
 
     }
         

@@ -1,15 +1,15 @@
-import {BsFillCreditCard2FrontFill,BsFillCreditCard2BackFill,BsTools } from 'react-icons/bs'
+// import {BsFillCreditCard2FrontFill,BsFillCreditCard2BackFill,BsTools } from 'react-icons/bs'
 
 export let dataskill=[
    {
        "id":1,
        "category":"Front-end",
-       "btncategory":<BsFillCreditCard2FrontFill/>,
+    //    "btncategory":<BsFillCreditCard2FrontFill/>,
        "skill1": "HTML",
        "skill2":"CSS",
        "skill3":"SASS",
        "skill4":"JavaScript",
-       "skill5":"React js",
+       "skill5":"React Js",
        "skill6":"Next Js",
        
 
@@ -18,7 +18,7 @@ export let dataskill=[
    {
     "id":2,
     "category":"Back-end",
-    "btncategory":<BsFillCreditCard2BackFill/>,
+    // "btncategory":<BsFillCreditCard2BackFill/>,
     "skill1": "Back End Learning...",
     
     
@@ -28,9 +28,11 @@ export let dataskill=[
 {
     "id":3,
     "category":"Tools",
-    "btncategory":<BsTools/>,
+    // "btncategory":<BsTools/>,
     "skill1": "Git & GitHub",
     "skill2":"Figma",
+    "skill3":"Webpack",
+
     
 
 

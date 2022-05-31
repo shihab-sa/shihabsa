@@ -1,77 +1,9 @@
-/* global  */
-
-
-
-/*=============== VARIABLES CSS ===============*/
-:root {
-    /*========== Colors ==========*/
-    /*Color mode HSL(hue, saturation, lightness)*/
-    /*
-        Blue: hsl(207, 90%, 61%)
-        Purple: hsl(250, 66%, 75%)
-        Pink: hsl(356, 66%, 75%)
-        Teal: hsl(174, 63%, 62%)
-    */
-  
-    --hue: 207;
-    --sat: 90%;
-    --lig: 61%;
-    --first-color: hsl(var(--hue), var(--sat), var(--lig));
-    --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
-    --title-color: hsl(var(--hue), 12%, 15%);
-    --text-color: hsl(var(--hue), 12%, 45%);
-    --text-color-light: hsl(var(--hue), 8%, 75%);
-    --text-color-lighten: hsl(var(--hue), 8%, 92%);
-    --body-color: hsl(var(--hue), 100%, 99%);
-    --container-color: #fff;
-  
-    /*========== Font and typography ==========*/
-    /*.5rem = 8px | 1rem = 16px ...*/
-    --body-font: 'Poppins', sans-serif;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
-    --smaller-font-size: .75rem;
-  }
-  
-  @media screen and (min-width: 968px) {
-    :root {
-      --h2-font-size: 1.5rem;
-      --h3-font-size: 1.25rem;
-      --normal-font-size: 1rem;
-      --small-font-size: .875rem;
-      --smaller-font-size: .813rem;
-    }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* skill main section  */
-
-.title{
-    font-size: var(--h3-font-size);
+.title h2{
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
 }
 
 .btn-container{
@@ -87,37 +19,57 @@
     padding: 0.5rem 0.75rem;
     color: var(--container-color);
     border-radius:5px;
-    font-weight: 500;
-    
-   
-    
+    font-weight: 500;  
 }
 
 
-.skills-center{
-    row-gap: 3.5rem;
+
+
+/* ==============================card container==================================  */
+.card__containers{
+  margin-top: 5rem;
+  height: 320px;
+  width: 320px;
+  background: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0px 21px 37px 6px rgba(0, 0, 0, 0.3);
+ 
 }
 
-/* skill info  */
+.card__wrappers{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+}
 
-.new__skill{
+.skill__title{
     display: flex;
     align-items: center;
-}
-.skill__info{
-  
+    gap:.4rem;
+    font-size:.98rem;
 }
 
-.skill__section{
+
+/* ========================================== skill ============================= */
+
+.skill__all{
     display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    gap: 2rem 5rem;
-   
-   
-  
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

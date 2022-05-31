@@ -8,6 +8,7 @@ const Projects=()=>{
     return(
         <div>
              {/* Projects card design start  */}
+             <h2 className="main__projects__title">Projects</h2>
 
 
             <div className="card__container container">
@@ -47,8 +48,8 @@ const Projects=()=>{
                    <div className="projects__footer">
 
                      
-                     <HiOutlineChartSquareBar className="love__icone"/>
-                     <h2 className="title">To Do App</h2>
+                     <HiOutlineChartSquareBar className="project__icone"/>
+                     <h1 className="title__pro">To Do App</h1>
 
                      
                      

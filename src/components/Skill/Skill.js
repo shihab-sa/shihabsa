@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { AiOutlineCheckCircle } from 'react-icons/ai'
 import './Skill.css'
+import {RiCheckboxCircleFill } from 'react-icons/ri'
 
 
 
@@ -9,12 +9,17 @@ function App() {
   const [skill, setSkill] = useState([])
   const [value, setValue] = useState(0)
 
+
+  
+
   const fetchSkill = async () => {
     const reponse = await fetch("public.json")
     const newSkill = await reponse.json()
     setSkill(newSkill)
     setLoading(false)
   }
+
+
   useEffect(() => {
     fetchSkill()
   }, [])
@@ -53,38 +58,28 @@ function App() {
         </div>
 
         {/* skill info */}
-        <article className="skill-info">
+        <article className="skill-info grid">
           
          {
-             allskill.map((newskilldata,index)=>{
+             allskill.map((newSkilldata,index)=>{
                  return(
                      <div key={index} className='skill__section'>
+                      {/* start  */}
+                    <div className="card__containers container">
+                       <div className="card__wrappers">
+                           
+                          
+                           <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill1}</h3>
+                           <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill2}</h3>
+                           <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill3}</h3>
+                           <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill4}</h3>
+                           <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill5}</h3>
+                           <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill6}</h3>
 
-                      
-                      <div>
-                      <p className='new__skill'><AiOutlineCheckCircle/>{newskilldata.skill1}</p>
-                      <span className='kills__level'>{level}</span>
+                       </div>
+                   </div>
+                      {/* end  */}
                       </div>
-                     <div>
-                     <p className='new__skill'><AiOutlineCheckCircle/>{newskilldata.skill2}</p>
-                     <span>{level}</span>
-                     </div>
-                     <div>
-                     <p className='new__skill'><AiOutlineCheckCircle/>{newskilldata.skill3}</p>
-                     <span>{level}</span>
-                     </div>
-                     <div>
-                     <p className='new__skill'><AiOutlineCheckCircle/>{newskilldata.skill4}</p>
-                     <span>{level}</span>
-                     </div>
-                     <div>
-                     <p className='new__skill'><AiOutlineCheckCircle/>{newskilldata.skill5}</p>
-                     <span>{level}</span>
-                     </div>
-                     
-                      
-
-                     </div>
                  )
              })
          }
