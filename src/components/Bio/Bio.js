@@ -1,25 +1,29 @@
 import React from 'react' 
-import {SiMaildotru,SiJavascript,SiTypescript} from 'react-icons/si'
+import './Bio.css'
+import {SiMaildotru,SiJavascript,SiTypescript,SiNextdotjs} from 'react-icons/si'
+import {DiReact} from 'react-icons/di'
 
 
 
-const Expericense=()=>{
+const Bio=()=>{
     return(
         <div>
              {/* introduce myself  */}
 
-             <div className='introduce__myself__container'>
+             <div className='introduce__myself__container container'>
                   {/* myself wrapper  */}
                   <div className='wrapper__myself'>
 
                       {/* icone  */}
                       <div className='icone__bio'>
-                          <SiMaildotru/>
+                          <SiMaildotru  className='icone__bio'/>
                       </div>
 
                       {/* text myself  */}
                       <div className='introducemy__self'>
-                          <p>A self-introduction should include your name and occupation (or desired occupation) and key facts that will help you make an impression on the person you're speaking to. In a few sentences, cover the most important things that others need to know about you.</p>
+                          <p>A self-introduction should include your name and occupation (or desired occupation) 
+                          and key facts that will help you make an impression on the person you're speaking to.
+                          </p>
 
                       </div>
 
@@ -27,7 +31,9 @@ const Expericense=()=>{
 
                       <div className='my__fev__stacks'>
 
-                        <h2>Current Fev Stacks <SiMaildotru/> </h2>
+                        <div className='current__title'>
+                         <h2>Current Fev Stacks <SiMaildotru/> </h2>
+                        </div>
 
                         {/* language stacks  */}
 
@@ -37,7 +43,8 @@ const Expericense=()=>{
                                      <SiTypescript/>
                              </div>
                              <div className='framworks'>
-
+                                  <SiNextdotjs/>
+                                  <DiReact/>
                              </div>
 
                         </div>
@@ -51,4 +58,4 @@ const Expericense=()=>{
     )
 }
 
-export default Expericense
+export default Bio

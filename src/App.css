@@ -1,12 +1,11 @@
-/* ==============================Google Fonts ==========================================================*/
+/* ============================== Google Fonts ==========================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Akshar&family=Poppins:wght@400;500;600&family=Quattrocento&family=Roboto:wght@100;400;500&display=swap');
 
 
-/*=============== VARIABLES CSS =======================*/
+/*=============== Variable of CSS =======================*/
 
 :root {
-
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
     /*
@@ -33,10 +32,25 @@
 
     --body-font: 'Poppins', sans-serif;
     --h2-font-size: 1.25rem;
+    --one-point-five:1.5rem;
     --h3-font-size: 1rem;
+    --h4-font-size:2rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+
+    /* ------------margin top -------------- */
+
+    --margin-topThree:3rem;
+    --margin-topFour:4rem;
+    --margin-topSix:6rem;
+    --margin-topFive:5rem;
+
+
+    /* === =====line hight ======= */
+
+    --line-heightFour: 4rem;
+    --line-heightFive:5rem;
 
   }
   
@@ -80,6 +94,6 @@ img {
   margin: 0 auto;
 }
 
-grid{
+/* grid{
   display: grid;
-}
+} */

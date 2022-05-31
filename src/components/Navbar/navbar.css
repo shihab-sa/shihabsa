@@ -1,6 +1,10 @@
+ /* ----------------------------------- navbar -------------------------------- */
+
 nav{
     background:var(--body-color);
-    line-height: 5rem;
+    /* line-height: 5rem; */
+    line-height: var(--line-heightFive);
+    
 }
 .nav__container{
     display: flex;
@@ -12,10 +16,10 @@ nav{
 }
 .nav__menu__list li a{
     font-size: var(--h3-font-size);
-    font-weight: 700;
+    font-weight: 800;
 }
 
-/* =========================================media query and responsive ============================  */
+/* ========================================= media query and responsive ============================  */
 
 
 /*Extra small devices (portrait phones, less than 576px)*/

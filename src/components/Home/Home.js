@@ -1,4 +1,5 @@
 import React from 'react'
+import Bio from '../Bio/Bio'
 import './home.css'
 
 
@@ -34,9 +35,12 @@ const Home=()=>{
                 </div>
 
                 </div>
+
+                {/* another components   */}
+                <Bio/>
                 
                
-                    
+                
                 
             
 

@@ -1,0 +1,72 @@
+/* title  */
+
+/* .main__projects__title{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+} */
+
+
+/* ==============================card container==================================  */
+.introduce__myself__container{
+    margin-top:1rem;
+  height: 320px;
+  width: 320px;
+  background: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0px 21px 37px 6px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper__myself{
+    padding: 1.5rem;
+    
+}
+
+.icone__bio{
+    font-size:1.5rem;
+    color:#ff6e6c;
+}
+
+/* =========================================text myself ======================================= */
+
+.introducemy__self p{
+    padding:.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+
+/* ===========================current fev stacks =============================== */
+
+
+.my__fev__stacks{
+   
+}
+
+.current__title h2{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    font-size: 1rem;
+}
+
+
+/*=============================== language ====================== */
+
+.current__fev{
+    display: flex;
+    gap: 1rem;
+}
+
+.language,.framworks{
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+    color: #ff6e6c;
+    margin-top: 1rem;
+    
+}
+
+
+
+
