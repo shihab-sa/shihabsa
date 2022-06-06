@@ -25,10 +25,11 @@
      "level":"Advanced",
      "allskill":[
         {
-            
-             
-
-        }
+    "skill1": "Node",
+    "skill2":"firebase",
+    "skill3":"webpack",
+    "skill4":"npm"
+}
         
 ]
      },

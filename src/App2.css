@@ -1,0 +1,75 @@
+/* ------------- ----- Google Fonts ------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Poppins:wght@400;500;600&family=Quattrocento&family=Roboto:wght@100;400;500&display=swap');
+
+
+/*--------------------  Variable of CSS ----------------------*/
+
+:root {
+   /* ----------------- you can change color ----------------  */
+
+    /* colors */
+    --darkBlue_1: #3B447A;
+    --darkBlue_2: #222B5F;
+    --darkBlue_3: #0A0F19;
+    --darkBlue_4: #101826;
+    --mediumSlateBlue: #6C62E2;
+    --lightBlue_1: #F3F1FE;
+    --lightBlue_2: #ADBDE3;
+    --white: #FFFFFF;
+    --black: #000000;
+    /* others */
+    --red:#ff6e6c;
+    --pro:#8bd3dd;
+    
+
+
+    --body-font: 'Poppins', sans-serif;
+
+    
+
+  }
+  
+
+
+  /* --------------------------------- basic Base -----------------------------*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--lightBlue_1);
+    
+    
+    transition: .3s; /* For animation dark mode */
+}
+h1, h2, h3 {
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+  }
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+

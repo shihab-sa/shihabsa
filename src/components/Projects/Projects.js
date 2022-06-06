@@ -2,13 +2,71 @@ import React from "react";
 import {FiGithub} from 'react-icons/fi'
 import {BiLinkExternal} from 'react-icons/bi'
 import {BsCheckCircleFill} from 'react-icons/bs'
+import {SiReact} from 'react-icons/si'
 import {HiOutlineChartSquareBar} from 'react-icons/hi'
+import {DiSass} from 'react-icons/di'
+import {DiJavascript1} from 'react-icons/di'
+import {GrNode} from 'react-icons/gr'
 import './Projects.css'
+
 const Projects=()=>{
     return(
         <div>
+
+
+                   
+
+            {/* image click navabr  */}
+
+            <div className="custom__navbar__projects container">
+                   
+                  
+                  <a href="#" className="javascript">
+                       <DiJavascript1/>
+                   </a>
+
+                   <a href="#" className="react">
+                        <SiReact/>
+                   </a>
+
+                   <a href="#" className="sass">
+                        <DiSass/>
+                   </a>
+                 
+                    <a href="#" className="node">
+                    <GrNode/>
+                    </a>
+
+                 
+               
+
+                 
+               
+
+            </div>
+
+
+
+
+
+
+          {/* image click navabr  */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
              {/* Projects card design start  */}
-             <h2 className="main__projects__title">Projects</h2>
+             
 
 
             <div className="card__container container">

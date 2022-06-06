@@ -1,0 +1,71 @@
+.nav__side__bar__activeone{
+    height: 320px;
+    width: 320px;
+    background:var(--darkBlue_3);
+    border-radius: 1rem; 
+    position: absolute;
+    top:0;
+    left: 230px;
+    margin-top:160px;
+    transition: 0.4s ease-in-out;
+}
+
+
+.nav__side__wrapper{
+    padding:1rem;
+    margin-top: 1rem;
+}
+
+.my__last__projects__title{
+    color: var(--white);
+    display: flex;
+    gap: .1rem;
+   
+
+}
+
+.top__sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my__last__projects__icone{
+    font-size: 1.5rem;
+    color:var(--red);
+}
+
+.last__project__section h3{
+    color:var(--white);
+}
+.last__project__section{
+    margin-top:1rem;
+    display: flex;
+    gap:.6rem;
+    font-size: 1rem;
+}
+.last__project__section a{
+    color:var(--red);
+    font-size: 2rem;
+}
+
+.using__stacks__tech{
+    font-size:1rem;
+    color:var(--white);
+}
+
+.technology{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    color:var(--red);
+    gap:1.5rem;
+    font-size:1rem;
+    font-weight: 500;
+}
+
+
+.icon__navbar{
+    color:var(--white);
+    font-size:2rem;
+}
+

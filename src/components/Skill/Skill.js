@@ -31,14 +31,11 @@ function App() {
     )
   }
         
-  const {level,allskill} = skill[value]
+  const {allskill} = skill[value]
 
   return (
     <section className="section">
-      <div className="title">
-        <h2>Skills</h2>
-       
-      </div>
+      
       <div className="skills-center">
 
         {/* btn container */}
@@ -68,13 +65,13 @@ function App() {
                     <div className="card__containers container">
                        <div className="card__wrappers">
                            
-                          
                            <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill1}</h3>
                            <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill2}</h3>
                            <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill3}</h3>
                            <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill4}</h3>
                            <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill5}</h3>
                            <h3 className='skill__title'><RiCheckboxCircleFill/>{newSkilldata.skill6}</h3>
+                          
 
                        </div>
                    </div>

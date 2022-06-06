@@ -1,25 +1,29 @@
 /* skill main section  */
-.title h2{
-    text-align: center;
-    margin-top: 4rem;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-}
+
 
 .btn-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  margin-top:6rem;
+  
+
 }
 
 .active-btn{
-    background: #42A5F5;
-    padding: 0.5rem 0.75rem;
-    color: var(--container-color);
+    background:var(--mediumSlateBlue); 
+    color: var(--white);
     border-radius:5px;
-    font-weight: 500;  
+    font-weight:500;  
+    
+}
+
+.skill-btn{
+  padding:.86rem .87rem;
+  border: none;
+  border-radius:.2rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 
@@ -27,12 +31,13 @@
 
 /* ==============================card container==================================  */
 .card__containers{
-  margin-top: 5rem;
-  height: 320px;
+  margin-top:1.3rem;
+  height: 260px;
   width: 320px;
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
+  background: var(--white);
   border-radius: 1rem;
-  box-shadow: 0px 21px 37px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
  
 }
 
@@ -48,28 +53,15 @@
     align-items: center;
     gap:.4rem;
     font-size:.98rem;
+    color: var( --darkBlue_2);
 }
 
 
 /* ========================================== skill ============================= */
 
-.skill__all{
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* .skill__all{
+  display: flex;
+} */
 
 
 

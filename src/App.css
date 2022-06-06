@@ -1,12 +1,13 @@
-/* ============================== Google Fonts ==========================================================*/
+/* ------------- ----- Google Fonts ------------------------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Akshar&family=Poppins:wght@400;500;600&family=Quattrocento&family=Roboto:wght@100;400;500&display=swap');
 
 
-/*=============== Variable of CSS =======================*/
+/*--------------------  Variable of CSS ----------------------*/
 
 :root {
-    /*========== Colors ==========*/
+
+    /* ========== Colors ==========  */
     /*Color mode HSL(hue, saturation, lightness)*/
     /*
         Blue: hsl(207, 90%, 61%)
@@ -15,9 +16,13 @@
         Teal: hsl(174, 63%, 62%)
     */
   
-    --hue: 207;
-    --sat: 90%;
+   /* ----------------- you can change color ----------------  */
+
+    --hue: 607;
+    --sat:90%;
     --lig: 61%;
+
+
     --first-color: hsl(var(--hue), var(--sat), var(--lig));
     --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
     --title-color: hsl(var(--hue), 12%, 15%);
@@ -26,18 +31,27 @@
     --text-color-lighten: hsl(var(--hue), 8%, 92%);
     --body-color: hsl(var(--hue), 100%, 99%);
     --container-color: #fff;
+
+
   
-    /*========== Font and typography ==========*/
+    /*--------------- Font and typography ---------------------*/
     /*.5rem = 8px | 1rem = 16px ...*/
 
+
     --body-font: 'Poppins', sans-serif;
+
+    /* -------------------- font size all -------------------------- */
     --h2-font-size: 1.25rem;
     --one-point-five:1.5rem;
     --h3-font-size: 1rem;
     --h4-font-size:2rem;
+
+    /* ---------------------- Responsive font size --------------------- */
+
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+
 
     /* ------------margin top -------------- */
 
@@ -47,7 +61,7 @@
     --margin-topFive:5rem;
 
 
-    /* === =====line hight ======= */
+    /* ------------------ line hight ---------------------- */
 
     --line-heightFour: 4rem;
     --line-heightFive:5rem;
@@ -56,18 +70,24 @@
   
 
 
-  /* =============================Blobal Base ======================================= */
+  /* --------------------------------- basic Base -----------------------------*/
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+   
+    
+   
+    
 }
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+    
     transition: .3s; /* For animation dark mode */
 }
 h1, h2, h3 {
@@ -94,6 +114,3 @@ img {
   margin: 0 auto;
 }
 
-/* grid{
-  display: grid;
-} */

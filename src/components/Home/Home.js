@@ -1,6 +1,7 @@
 import React from 'react'
 import Bio from '../Bio/Bio'
 import './home.css'
+import Baseskill from '../Baseskill/Baseskill'
 
 
 
@@ -38,6 +39,7 @@ const Home=()=>{
 
                 {/* another components   */}
                 <Bio/>
+                <Baseskill/>
                 
                
                 
@@ -50,7 +52,7 @@ const Home=()=>{
                 <div className="profile__info__group">
                     <h3 className="profile__info__number">1.5</h3>
                     <p className="profile__info__descriptions">
-                        years of <br/> work
+                        years of <br/> experience
                     </p>
                 </div>
 
@@ -64,7 +66,7 @@ const Home=()=>{
                 <div className="profile__info__group">
                     <h3 className="profile__info__number">+00</h3>
                     <p className="profile__info__descriptions">
-                        satisfied <br/> customers
+                        Job<br/>changing
                     </p>
                 </div>
 

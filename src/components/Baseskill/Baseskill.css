@@ -1,0 +1,56 @@
+
+/*     -----------------          base skill       -----------               */
+
+
+.base__skill {
+    height: 236px;
+    width: 320px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background: var(--white);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    
+
+}
+.base__title h2{
+    color: var(--darkBlue_2);
+}
+.base__paragraph p{
+    color: var( --darkBlue_1);
+}
+
+.three__dot .one{
+    color: var(--red);
+}
+.three__dot .two{
+    color: var(--darkBlue_1);
+}
+.base__skill__link a{
+    color:var(--red);
+    font-size:1.3rem;
+}
+
+.base__skill__wrapper{
+    padding: 2rem;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+.two__button{
+   display: flex;
+   justify-content:center;
+   padding-left: 16rem;
+   margin-top: 2rem;
+    
+}
+.two__button button{
+    border: none;
+}
+.left__btn,.right__btn{
+    font-size:1.5rem;
+    color: var(--red);
+}

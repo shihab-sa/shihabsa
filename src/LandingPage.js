@@ -9,11 +9,13 @@ import Bio from './components/Bio/Bio'
 
 
 
+
 const LandingPage=()=>{
     return(
         <div>
             <Navbar/>
             <Home/>
+            
             <Skill/>
             <Projects/>   
             

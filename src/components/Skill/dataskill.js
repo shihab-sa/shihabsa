@@ -19,10 +19,10 @@ export let dataskill=[
     "id":2,
     "category":"Back-end",
     // "btncategory":<BsFillCreditCard2BackFill/>,
-    "skill1": "Back End Learning...",
-    
-    
-
+    "skill1": "Node",
+    "skill2":"firebase",
+    "skill3":"webpack",
+    "skill4":"npm"
 
 },
 {
@@ -32,8 +32,6 @@ export let dataskill=[
     "skill1": "Git & GitHub",
     "skill2":"Figma",
     "skill3":"Webpack",
-
-    
 
 
 },
