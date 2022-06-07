@@ -5,7 +5,7 @@
 .base__skill {
     height: 236px;
     width: 320px;
-    margin-top: 2rem;
+    margin-top:var(--line-height);
     border-radius: 1rem;
     background: var(--white);
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
@@ -38,7 +38,7 @@
 .footer__info{
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+   
 
 }
 .two__button{

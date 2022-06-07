@@ -26,6 +26,8 @@
 
     --body-font: 'Poppins', sans-serif;
 
+    --line-height:4rem;
+
     
 
   }
@@ -44,15 +46,12 @@
 }
 body {
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
     background-color: var(--lightBlue_1);
-    
-    
     transition: .3s; /* For animation dark mode */
 }
-h1, h2, h3 {
-    color: var(--title-color);
-    font-weight: 600;
+h1, h2, h3,h4 {
+    color: var(--mediumSlateBlue);
+    font-weight:800;
 }
 
 ul{
@@ -68,7 +67,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 .container{
   max-width: 700px;
   margin: 0 auto;

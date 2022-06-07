@@ -50,24 +50,24 @@ const Home=()=>{
 
             <div className="profile__info">
                 <div className="profile__info__group">
-                    <h3 className="profile__info__number">1.5</h3>
-                    <h3 className="profile__info__descriptions">
+                    <h5 className="profile__info__number">1.5</h5>
+                    <h5 className="profile__info__descriptions">
                         years of <br/> experience
-                    </h3>
+                    </h5>
                 </div>
 
                 <div className="profile__info__group">
-                    <h3 className="profile__info__number">+5</h3>
-                    <h3 className="profile__info__descriptions">
+                    <h5 className="profile__info__number">+5</h5>
+                    <h5 className="profile__info__descriptions">
                         completed <br/>projects
-                    </h3>
+                    </h5>
                 </div>
 
                 <div className="profile__info__group">
-                    <h3 className="profile__info__number">+00</h3>
-                    <h3 className="profile__info__descriptions">
+                    <h5 className="profile__info__number">+00</h5>
+                    <h5 className="profile__info__descriptions">
                         Job<br/>changing
-                    </h3>
+                    </h5>
                 </div>
 
                 

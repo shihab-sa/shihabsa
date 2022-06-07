@@ -36,12 +36,12 @@ const Bio=()=>{
 
                       {/* text myself  */}
                       <div className='introducemy__self'>
-                          <p>A self-introduction I'm a Front-End Dev<SiMaildotru/>.<br/>
+                          <h4>A self-introduction I'm a Front-End Dev<SiMaildotru/>.<br/>
                           Especially at<VscDebugBreakpointLogUnverified/><sup className='pro'>Pro</sup> React Js
                           <sup className='pro'>Pro</sup> Google Seaching...
                            & too much loveing JavaScript's Stack <br/>
                          
-                          </p>
+                          </h4>
 
                       </div>
 

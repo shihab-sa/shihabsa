@@ -1,7 +1,8 @@
  /* ----------------------------------- navbar -------------------------------- */
 
  nav{
-  line-height:4rem;
+  line-height:var(--line-height);
+ 
   
 }
 .nav__container{
@@ -16,6 +17,7 @@
    font-weight: 800;
    font-size:1.2rem;
    color: var(--mediumSlateBlue);
+   
   
    
 }
@@ -47,8 +49,6 @@
 
 @media (max-width:576px){
   .nav__container{
-    /* margin-left: 5rem;
-    margin-right: 5rem; */
     margin:0 5rem;
     
   }

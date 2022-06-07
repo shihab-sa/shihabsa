@@ -4,7 +4,8 @@
 
 .profile{
     position: relative;
-    margin-top:3rem;
+    margin-top:var(--line-height);
+    
 }
 
 .profile__container{
@@ -14,9 +15,7 @@
 .profile__data{
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* column-gap: .75rem; */
-    column-gap:1.5rem;
+    column-gap:.5rem;
 }
 
 .profile__perfil{
@@ -30,14 +29,14 @@
 }
 
 .profile__border{
-  border: 3.5px solid var(--mediumSlateBlue);
+  border:3.5px solid var(--mediumSlateBlue);
   justify-self: center;
   width: 115px;
   height: 115px;
   border-radius: 59%;
   display: grid;
   place-items:center;
-  margin-bottom: .75rem;
+  margin-bottom:1rem;
 }
 
 .profile__perfil img{
@@ -46,15 +45,15 @@
 }
 
 .profile__name{
-  font-size:1.3rem;
+  font-size:1.4rem;
   color: var(--mediumSlateBlue);
 }
 
 .profile__profession{
-  color: var( --lightBlue_2);
-  font-size:.89rem;
-  font-weight: 500;
-  margin-bottom:2rem;
+  color: var( --lightBlue_4);
+  font-size:.90rem;
+  font-weight:600;
+  margin-bottom:1rem;
 }
 
 
@@ -63,15 +62,15 @@
 .profile__social{
   display: flex;
   justify-content: center;
-  column-gap:1rem;
+  column-gap:.5rem;
 }
 
 .profile__socail__link{
-  font-size:2rem;
+  font-size:1.4rem;
   transition: .3s;
 }
 .profile__socail__link:hover{
-  color: var(--black);
+  color: var(--mediumSlateBlue);
 }
 
 
@@ -79,9 +78,10 @@
   display: grid;
   grid-template-columns: repeat(3,max-content);
   justify-content: center;
-  column-gap: 2.5rem;
+  column-gap:2.5rem;
   margin-top:2rem;
-  justify-content: center;    
+  justify-content: center;   
+ 
 
   
 }
@@ -102,6 +102,7 @@
 .profile__info__descriptions{
   font-size:.86rem;
   font-weight: 500;
+  
   
 }
 
