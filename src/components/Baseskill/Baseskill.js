@@ -83,12 +83,12 @@ const Baseskill=()=>{
 
 
           <div className='two__button' >
-             <button className='left__btn' onClick={prevSkill} >
+             <a className='left__btn' onClick={prevSkill} >
                            <AiOutlineCaretLeft/>
-             </button>
-            <button className='right__btn' onClick={nextSkill}>
+             </a>
+            <a className='right__btn' onClick={nextSkill}>
                            <AiFillCaretRight/>
-            </button>
+            </a>
 
 </div>
 

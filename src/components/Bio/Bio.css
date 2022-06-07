@@ -37,6 +37,7 @@
     padding:.5rem;
     font-size: 1rem;
     font-weight: 500;
+    color: var(--darkBlue_4);
 }
 
 /* ===========================current fev stacks =============================== */
@@ -45,6 +46,7 @@
     display: flex;
     align-items: center;
     font-size:1rem;
+    color: var(--darkBlue_4);
 }
 /*=============================== language ====================== */
 

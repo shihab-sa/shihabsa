@@ -47,11 +47,11 @@
 
 .profile__name{
   font-size:1.3rem;
-  color: var(--darkBlue_2);
+  color: var(--mediumSlateBlue);
 }
 
 .profile__profession{
-  color: var(--darkBlue_1);
+  color: var( --lightBlue_2);
   font-size:.89rem;
   font-weight: 500;
   margin-bottom:2rem;
@@ -100,8 +100,9 @@
 }
 
 .profile__info__descriptions{
-  font-size:.87rem;
+  font-size:.86rem;
   font-weight: 500;
+  
 }
 
 /* =========================================================== profile button======================  */

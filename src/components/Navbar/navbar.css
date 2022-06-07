@@ -1,7 +1,8 @@
  /* ----------------------------------- navbar -------------------------------- */
 
  nav{
-   line-height:4rem;
+  line-height:4rem;
+  
 }
 .nav__container{
     display: flex;
@@ -11,9 +12,10 @@
     display: flex;
     gap:2rem;
 }
-.nav__menu__list li a,.nav__dark__mode{
+.nav__menu__list li a{
    font-weight: 800;
-   color: var(--darkBlue_2);
+   font-size:1.2rem;
+   color: var(--mediumSlateBlue);
   
    
 }

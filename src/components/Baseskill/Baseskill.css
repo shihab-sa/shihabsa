@@ -15,8 +15,9 @@
 .base__title h2{
     color: var(--darkBlue_2);
 }
-.base__paragraph p{
-    color: var( --darkBlue_1);
+.base__paragraph{
+    color: var(--darkBlue_4);
+    font-weight: 500;
 }
 
 .three__dot .one{
@@ -44,7 +45,7 @@
    display: flex;
    justify-content:center;
    padding-left: 16rem;
-   margin-top: 2rem;
+   margin-top:1rem;
     
 }
 .two__button button{
