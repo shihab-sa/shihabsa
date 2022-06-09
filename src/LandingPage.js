@@ -3,7 +3,7 @@ import Home from './components/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects/Projects'
 import Skill from './components/Skill/Skill'
-import Bio from './components/Bio/Bio'
+import Navone from './components/Navone/Navone'
 
 
 
@@ -13,6 +13,7 @@ import Bio from './components/Bio/Bio'
 const LandingPage=()=>{
     return(
         <div>
+            <Navone/>
             <Navbar/>
             <Home/>
             

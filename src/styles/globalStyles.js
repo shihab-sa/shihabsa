@@ -28,13 +28,14 @@ export const GlobalStyles = createGlobalStyle`
 `;
 
 export const lightTheme = {
-  body: '#fff',
+  body:"#faeee7",
   text: '#121212',
   primary: '#6200ee',
 };
 
 export const darkTheme = {
-  body: '#121212',
+  // body: '#121212',
+  body:"#323a45",
   text: '#fff',
   primary: '#bb86fc',
   

@@ -3,15 +3,15 @@ import styled from 'styled-components';
 
 let Sun, Moon;
 
-Sun = Moon = styled.svg`
+ Sun = Moon = styled.svg`
   position: fixed;
   top:.80rem;
   right: 10rem;
   transition: all .5s ease-in-out;
   margin-top:.2rem;
-  margin-right:5rem;
+  margin-right:19rem; 
   
-`;
+ `;
 
 export const Toggle = ({ theme, toggleTheme }) => {
   console.log(theme);
